@@ -28,3 +28,15 @@ Exception Handling
 
 Reusability
   -->OOP is built on the reusable component.
+
+Reference Variable
+  -->Acts as a rerference to other variable.
+  -->It contains address of the variable that it is referring to.
+  -->"&" is used to define the address of any variable or any memory.
+
+Pointers 
+  -->>
+
+Functions
+ -->Function prototype is declaration defines name of function,its parameter,its return type.
+
