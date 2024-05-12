@@ -1,5 +1,4 @@
-#include<iostream> //input-output stream
-#include <typeinfo> // give the info of type
+#include<bits/stdc++.h> //includes all the std library
 
 using namespace std;// std refers to standard library of c++ and namespace collection of indentifiers
 
