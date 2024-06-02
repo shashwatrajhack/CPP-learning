@@ -2,10 +2,10 @@
 
 using namespace std;
 
-void func(int i,int n){
+void print(int i,int n){
  if(i<1)return;
 
- func(i-1,n);
+ print(i-1,n);
  cout<<i<<endl;
 
 }
@@ -15,6 +15,6 @@ int main() {
 
     int n;
     cin>>n;
-    func(n,n);
+    print(n,n);
     return 0;
 }
