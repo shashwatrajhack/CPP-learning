@@ -17,5 +17,6 @@ int main() {
     // Your code here
     solve(6);
     solve(10);
+    solve(100);
     return 0;
 }
