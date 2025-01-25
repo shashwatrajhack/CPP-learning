@@ -2,18 +2,22 @@
 
 using namespace std;
 
-void funv(int i,int n){
-    if(i>n) return;
-    cout<<"shashwat"<<endl;
+void printNos(int n){
+    int i = 0;
+    if(i>n)return;
+    cout<< i <<" ";
 
-    funv(i+1,n);
+    i = i+1;
+
+    printNos(n);
 }
 
-int main() {
-    // Your code here
-    int t;
-    cin>>t;
+int main(){
+    int N;
 
-    funv(1,t);
-    return 0;
+    cin>>N;
+
+    cout<<printNos(N);
+
+
 }
